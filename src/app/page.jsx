@@ -1,5 +1,6 @@
 'use client'
 
+import ClickButton from "./ui/button";
 import {useState} from "react";
 
 
@@ -11,14 +12,12 @@ function App() {
     }
 
     return (
-        <html>
-        <body>
+        <>
             <div style={{height: '100px', width: '100px', margin: 'auto'}}>
                 <p>{`Clicks ${clicks}`}</p>
             </div>
-            <button onClick={handleClick} style={{height: '100px', width: '100px', margin: 'auto'}}></button>
-        </body>
-        </html>
+            <ClickButton callable={handleClick}/>
+        </>
     )
 
 }
