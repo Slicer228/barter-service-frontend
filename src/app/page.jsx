@@ -1,26 +1,15 @@
 'use client'
 
-import ClickButton from "./ui/button";
-import {useState} from "react";
-import btnStyles from '@/app/ui/button.module.css'
-import CommonLabel from '@/app/ui/label'
-import classNames from 'classnames'
-import lblStyles from '@/app/ui/label.module.css'
-function App() {
-    const [clicks, setClick] = useState(0)
+import CommonWidget from '@/app/widgets/click'
+import ClickWidgetCss from '@/app/widgets/click.module.css'
+import classNames from "classnames";
 
-    function handleClick() {
-        setClick(clicks+1);
-    }
+
+function App() {
 
     return (
-        <>
-            <CommonLabel itemClasses={classNames(lblStyles.commonLabel)} text={'Clicks '}/>
-            <CommonLabel itemClasses={classNames(lblStyles.commonLabel)} text={clicks}/>
-            <ClickButton itemClasses={classNames(btnStyles.redButton)} callable={handleClick}/>
-        </>
+        <CommonWidget itemClasses={classNames(ClickWidgetCss.commonWidget)}/>
     )
-
 }
 
 export default App;
