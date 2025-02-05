@@ -2,7 +2,9 @@
 
 import ClickButton from "./ui/button";
 import {useState} from "react";
-
+import styles from '@/app/ui/button.module.css'
+import CommonLabel from '@/app/ui/label'
+import classNames from 'classnames'
 
 function App() {
     const [clicks, setClick] = useState(0)
@@ -13,10 +15,9 @@ function App() {
 
     return (
         <>
-            <div style={{height: '100px', width: '100px', margin: 'auto'}}>
-                <p>{`Clicks ${clicks}`}</p>
-            </div>
-            <ClickButton callable={handleClick}/>
+            <CommonLabel itemClasses={{}} text={'Clicks'}/>
+            <CommonLabel itemClasses={{}} text={clicks}/>
+            <ClickButton itemClasses={classNames(styles.redButton, styles.smallButton)} callable={handleClick}/>
         </>
     )
 

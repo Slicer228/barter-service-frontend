@@ -1,6 +1,5 @@
 import {Metadata} from 'next'
-
-import './globals.css'
+import styles from '@/app/fonts.module.css'
 
 export const metadata = {
     title: 'GB',
@@ -10,7 +9,7 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body className={styles.mainFont}>{children}</body>
         </html>
     )
 }

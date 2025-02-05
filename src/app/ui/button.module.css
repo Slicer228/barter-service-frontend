@@ -1,0 +1,12 @@
+
+
+.redButton {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+}
+
+.smallButton {
+    height: 10px;
+    width: 10px;
+}

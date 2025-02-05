@@ -1,6 +1,6 @@
 import {useState} from "react";
 
 
-export default function ClickButton({itemClass, callable}) {
-    return <button className={itemClass} onClick={callable}></button>
+export default function ClickButton({itemClasses, callable}) {
+    return <button className={itemClasses} onClick={callable}></button>
 }
