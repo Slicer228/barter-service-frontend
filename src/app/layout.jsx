@@ -1,5 +1,5 @@
 import {Metadata} from 'next'
-import {inter} from "@/app/fonts";
+import {inter} from "@/fonts";
 
 
 export const metadata = {

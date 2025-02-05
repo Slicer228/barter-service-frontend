@@ -1,7 +1,7 @@
 'use client'
 
-import CommonWidget from '@/app/widgets/click'
-import ClickWidgetCss from '@/app/widgets/click.module.css'
+import CommonWidget from '@/widgets/click'
+import ClickWidgetCss from '@/widgets/click.module.css'
 import classNames from "classnames";
 
 

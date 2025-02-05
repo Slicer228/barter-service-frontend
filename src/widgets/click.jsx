@@ -1,7 +1,7 @@
-import ClickButton from "@/app/ui/button";
-import CommonLabel from "@/app/ui/label";
-import BtnStyles from '@/app/ui/button.module.css'
-import LblStyles from '@/app/ui/label.module.css'
+import ClickButton from "@/ui/button";
+import CommonLabel from "@/ui/label";
+import BtnStyles from '@/ui/button.module.css'
+import LblStyles from '@/ui/label.module.css'
 import {useState} from "react";
 import classNames from "classnames";
 
