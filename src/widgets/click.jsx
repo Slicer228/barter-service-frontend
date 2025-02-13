@@ -3,7 +3,7 @@ import ClickButton from "@/ui/button";
 import CommonLabel from "@/ui/label";
 import BtnStyles from '@/ui/button.module.css'
 import LblStyles from '@/ui/label.module.css'
-import React, {useState, useRef} from "react";
+import React, {useState} from "react";
 import classNames from "classnames";
 
 
@@ -18,7 +18,7 @@ export default function CommonWidget({itemClasses}) {
         <div className={itemClasses}>
             <CommonLabel itemClasses={classNames(LblStyles.commonLabel)} text={'Clicks '}/>
             <CommonLabel itemClasses={classNames(LblStyles.commonLabel)} text={clicks}/>
-            <ClickButton itemClasses={classNames(BtnStyles.redButton)} callable={togglePlayback}/>
+            <ClickButton itemClasses={classNames(BtnStyles.redButton)} callable={increaseClick}/>
         </div>
     )
 }
