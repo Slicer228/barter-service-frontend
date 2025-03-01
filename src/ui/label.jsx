@@ -6,3 +6,11 @@ export default function CommonLabel({itemClasses, text}) {
         <p className={itemClasses}>{text}</p>
     )
 }
+
+function LinkLabel({itemClasses, text}) {
+    return (
+        <a className={itemClasses}>{text}</a>
+    )
+}
+
+export {LinkLabel};

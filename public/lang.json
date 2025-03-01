@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": {
+      "ru": "GB",
+      "en": "GB"
+    },
+    "description": {
+      "ru": "Обмен вещами",
+      "en": "Items exchange"
+    }
+  },
+  "header": {
+      "search_tip": {
+        "ru": "Я ищу",
+        "en": "Type to search"
+      },
+      "my_trades_button": {
+        "ru": "Обмены",
+        "en": "Trades"
+      },
+      "my_account_button": {
+        "ru": "Мой профиль",
+        "en": "My account"
+      }
+  },
+  "content": {
+    "page_catalog": {
+      "filters_label": {
+        "ru": "Фильтры",
+        "en": "Filters"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "copyright",
+    "developers_source": {
+      "ru": "Разработчики",
+      "en": "Developers"
+    }
+  }
+}
